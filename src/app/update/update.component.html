@@ -1,0 +1,15 @@
+<div class="row mt-5">
+    <div class="col-3">
+      <input [(ngModel)]="hero.name" type="text" class="form-control m-1" placeholder="Name">
+    </div>
+    <div class="col-3">
+      <input [(ngModel)]="hero.power" type="text" class="form-control m-1" placeholder="Power">
+    </div>
+    <div class="col-3">
+      <input [(ngModel)]="hero.image" type="text" class="form-control m-1" placeholder="Image URL">
+    </div>
+    <div class="col-3">
+      <button (click)="Update()" class="btn form-control m-1 text-light">Update</button>
+    </div>
+  </div>
+  
